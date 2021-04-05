@@ -1,0 +1,195 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body, h1, h2, p, a, ul, li, blockquote {
+	padding:0;
+	margin:0;
+}
+body {
+	font-family: "Nunito", Arial, Helvetica, sans-serif;
+	color: #e0e0e0;
+	background: #171717;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+.titulo {
+	font-size: 1.5em;
+	padding: 2.25rem 0;
+}
+.titulo::before {
+	content: "";
+	display: inline-block;
+	width: 70px;
+	height: 3px;
+	background-color: #e0e0e0;
+	margin: 10px 10px 8px 0;
+}
+
+.superinfo-bg {
+	background: #0f0f0f;
+	color: #e0e0e0;
+}
+.superinfo {
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 10px;
+}
+
+.superinfo a, .superinfo p{
+	padding: 0 10px 10px 10px;
+}
+
+.superinfo a {
+	color: #e0e0e0;
+}
+
+.menu-bg {
+	background: #090909;
+}
+
+.menu {
+	max-width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 26px 10px;
+	
+}
+
+.menu-logo a{
+	position: relative;
+	color: #e0e0e0;
+	font-size: 2.5em;
+	font-weight: bold;
+	transition: .6s;
+}
+
+.menu-items ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu-items a {
+	color: #e0e0e0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1rem;
+	display: block;
+	padding: 16px 10px;
+	transition: .6s;
+}
+
+.menu-items a:hover, .menu-logo a:hover {
+	color: #d15915;
+	transition: .6s;
+}
+
+.introducao-bg {
+	background: #000000;
+}
+.introducao {
+	display:flex;
+	align-items: center;
+	margin: 0 auto;
+	min-height: 60vh;
+	max-width: 960px;
+	padding: 30px 10px;
+	flex-wrap: wrap-reverse;
+}
+
+.naruto-frase {
+	max-width: 420px;
+	flex: 2 1 300px;
+	margin: 0 10px;
+	padding: 20px 30px;
+}
+.naruto-frase h1{
+	text-transform: uppercase;
+	font-size: 2rem;
+}
+
+.naruto-frase p{
+	font-size: 1em;
+}
+.naruto-frase cite{
+	font-size: 1.30em;
+}
+
+.naruto-frase h1::after, .naruto-frase p::after {
+	content: "";
+	display: block;
+	width: 140px;
+	height: 3px;
+	background-color: #e0e0e0;
+	margin: 8px 0 10px;
+}
+
+.banner {
+	padding-left: 60px;
+	margin: 0 auto;
+	flex: 1 1 250px;
+}
+
+.noticia {
+	display: flex;
+	max-width: 1120px;
+	min-height: 60vh;
+	margin: 0 auto;
+	padding: 10px;
+	flex-wrap: wrap-reverse;
+}
+
+.noticia-imagem{
+	flex: 1 2 250px;
+	padding: 0 10px;
+}
+.noticia-imagem img {
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.noticia-texto {
+	max-width: 470px;
+	flex: 1 2 400px;
+	padding: 0 10px;
+}
+
+.noticia-texto h2::after {
+	content: "";
+	display: block;
+	width: 140px;
+	height: 3px;
+	background-color: #e0e0e0;
+	margin: 8px 0 10px;
+}
+
+.noticia-texto p{
+	margin-bottom: .7em;
+	line-height: 1.5rem;
+}
+
+.noticia-texto input {
+	margin-left: 40px;
+	background: none;
+	color: #e0e0e0;
+	border: 3px solid #e0e0e0;
+	padding: 10px 26px;
+	border-radius: 20px;
+}
+
