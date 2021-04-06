@@ -104,19 +104,21 @@ img {
 	background: #000000;
 }
 .introducao {
-	display:flex;
-	align-items: center;
-	margin: 0 auto;
 	min-height: 60vh;
-	max-width: 960px;
+	max-width: 1120px;
+	margin: 0 auto;
 	padding: 30px 10px;
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	flex-wrap: wrap-reverse;
 }
-
 .naruto-frase {
 	max-width: 420px;
-	flex: 2 1 300px;
 	margin: 0 10px;
+	flex: 1 1 250px;
 	padding: 20px 30px;
 }
 .naruto-frase h1{
@@ -137,21 +139,21 @@ img {
 	width: 140px;
 	height: 3px;
 	background-color: #e0e0e0;
-	margin: 8px 0 10px;
+	margin: 8px 0 10px 0;
 }
 
 .banner {
-	padding-left: 60px;
-	margin: 0 auto;
-	flex: 1 1 250px;
+	max-width: 420px;
+	flex: 1 2 200px;
 }
+
 
 .noticia {
 	display: flex;
 	max-width: 1120px;
 	min-height: 60vh;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 0 10px;
 	flex-wrap: wrap-reverse;
 }
 
@@ -176,7 +178,7 @@ img {
 	width: 140px;
 	height: 3px;
 	background-color: #e0e0e0;
-	margin: 8px 0 10px;
+	margin: 8px 0 10px 0;
 }
 
 .noticia-texto p{
@@ -184,12 +186,31 @@ img {
 	line-height: 1.5rem;
 }
 
-.noticia-texto input {
-	margin-left: 40px;
-	background: none;
-	color: #e0e0e0;
-	border: 3px solid #e0e0e0;
-	padding: 10px 26px;
-	border-radius: 20px;
+.noticia-texto a {
+	color: #d15915;
 }
 
+.destaques-bg {
+	margin-top: 5.5em;
+	background:#272727;
+	padding-bottom: 40px;
+}
+
+.card-list {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-list p {
+	padding: 10px;
+}
+.card-list li {
+	text-align: center;
+	flex: 1 1 250px;
+	max-width: 270px;
+	margin: 0 12px 10px 12px;
+}
+.card-list img {
+	border-radius: 10px;
+}
