@@ -43,7 +43,7 @@ img {
 	color: #e0e0e0;
 }
 .superinfo {
-	max-width: 960px;
+	max-width: 1120px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -60,7 +60,7 @@ img {
 }
 
 .menu-bg {
-	background: #090909;
+	background: #000000;
 }
 
 .menu {
@@ -104,7 +104,7 @@ img {
 	background: #000000;
 }
 .introducao {
-	min-height: 60vh;
+	min-height: 50vh;
 	max-width: 1120px;
 	margin: 0 auto;
 	padding: 30px 10px;
@@ -118,7 +118,7 @@ img {
 .naruto-frase {
 	max-width: 420px;
 	margin: 0 10px;
-	flex: 1 1 250px;
+	flex: 1 1 300px;
 	padding: 20px 30px;
 }
 .naruto-frase h1{
@@ -144,7 +144,7 @@ img {
 
 .banner {
 	max-width: 420px;
-	flex: 1 2 200px;
+	flex: 1 2 220px;
 }
 
 
@@ -167,7 +167,7 @@ img {
 }
 
 .noticia-texto {
-	max-width: 470px;
+	max-width: 600px;
 	flex: 1 2 400px;
 	padding: 0 10px;
 }
@@ -213,4 +213,97 @@ img {
 }
 .card-list img {
 	border-radius: 10px;
+}
+.newsletter-bg {
+	margin-top: 4em;
+	background: #272727;
+}
+.newsletter {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 60px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.newsletter-block {
+	max-width: 520px;
+	flex: 1 1 200px;
+	margin: 0 10px;
+}
+.newsletter-block h1 {
+	font-size: 2em;
+}
+
+.newsletter-block p {
+	font-size: 1.25em;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.newsletter-email {
+	flex: 1 1 260px;
+	margin: 0 10px;
+	align-self: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.newsletter-email input {
+	flex: 3 1 260px;
+	font-size: 1.25em;
+	color: #0f0f0f;
+	font-style: italic;
+	font-family: nunito, Arial, Helvetica, sans-serif;
+	border: 4px solid #171717;
+	background: #c4c4c4;
+	outline: none;
+	padding: 15px 10px;
+	margin: 0px;
+	border-radius: 0px;
+}
+
+.newsletter-email button {
+	flex: 1 1 260px;
+	font-family: nunito, Arial, Helvetica, sans-serif;
+	font-size: 2.25em;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #171717;
+	color: white;
+	margin: 0px;
+	cursor: pointer;
+	border: 0px;
+	padding: 15px 10px;
+}
+
+.sobre-bloco {
+	max-width: 1120px;
+	min-height: 80vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.konoha-bloco {
+	max-width: 500px;
+	padding: 0 10px;
+	flex: 1 1 450px;
+}
+
+.konoha-bloco p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.konoha {
+	display: flex;
+	align-items: flex-start;
+	flex: 1 1 300px;
+}
+.konoha-imagem {
+	margin: .7em 0;
+	padding: 0 .7rem;
 }
