@@ -39,7 +39,7 @@ img {
 }
 
 .superinfo-bg {
-	background: #0f0f0f;
+	background: #3f3f3f;
 	color: #e0e0e0;
 }
 .superinfo {
@@ -289,7 +289,7 @@ img {
 
 .konoha-bloco {
 	max-width: 500px;
-	padding: 0 10px;
+	padding: 0 16px;
 	flex: 1 1 450px;
 }
 
@@ -304,6 +304,105 @@ img {
 	flex: 1 1 300px;
 }
 .konoha-imagem {
-	margin: .7em 0;
-	padding: 0 .7rem;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+
+.equipe-bg {
+	margin-top: 4em;
+	background: #272727;	
+}
+.equipe-block {
+	max-width: 500px;
+	margin-bottom: 1em;
+	padding: 0 10px;
+}
+.equipe {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+
+.card-colaborador {
+	max-width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card-colaborador li {
+	padding: 20px 10px;
+}
+.card-colaborador li p {
+	text-align: center;
+	padding: 10px;
+} 
+
+.footer-bg{
+	background: #000000;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.footer li p {
+	margin-bottom: 8px;
+}
+.footer li {
+	flex: 1 1 350px;
+	max-width: 450px;
+	margin: 10px 16px;
+}
+
+.redes-sociais {
+	display: flex;
+	margin: 0;
+}
+
+.footer-titulo {
+	font-size: 1.5em;
+	padding: 1rem 0;
+}
+.footer-titulo::after {
+	content: "";
+	display: block;
+	max-width: 450px;
+	height: 3px;
+	background-color: #d15915;
+	margin: 10px 2px 2px 2px;
+}
+.footer label {
+	display: block;
+	font-size:  1em;
+}
+.footer button {
+	display: block;
+	width: 100%;
+	margin-bottom: 16px;
+	height: 36px;
+	border: none;
+	background: #d15915;
+	color: #e0e0e0;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+.footer input {
+	width: 100%;
+	margin-bottom: 16px;
+	height: 36px;
+	background: #3f3f3f;
+	color: #e0e0e0;
+	border: none;
+}
+.copy-bg {
+	background: #222222;
+}
+.copy {
+	padding: 16px;
+	display: flex;
+	justify-content: center;
 }
