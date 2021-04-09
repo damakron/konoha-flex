@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="shortcut icon" href="konoha.ico" type="image/x-icon">
 	<title>Konoha Flex - A vontade do fogo</title>
 </head>
 
@@ -26,7 +28,7 @@
 			<nav class="menu-items">
 				<ul>
 					<li><a href="#ninja-news">Ninja News</a></li>
-					<li><a href="#batalha-review">Review</a></li>
+					<li><a href="#review">Review</a></li>
 					<li><a href="#equipe">Equipe</a></li>
 				</ul>
 			</nav>
@@ -36,7 +38,7 @@
 	<main class="introducao-bg">
 		<div class="introducao">
 			<div class="center">
-				<blockquote class="naruto-frase">
+				<blockquote data-anime="400" class="fadeInLeft naruto-frase">
 					<h1>A vontade do fogo</h1>
 					<p>“Trabalho duro é inútil para aqueles que não acreditam em si mesmos”</p>
 					<cite>Naruto Uzumaki</cite>
@@ -50,6 +52,7 @@
 
 	<section class="ninja-news" id="ninja-news">
 		<h1 class="titulo">Ninja News</h1>
+		<div class="noticias" data-slide="noticias">
 		<div class="noticia">
 			<article class="noticia-texto">
 				<h2>Por que Orochimaru se tornou um cara bom após ser revivido por Sasuke em Naruto Shippuden?</h2>
@@ -65,12 +68,78 @@
 				<img src="img/introducao.jpg" alt="Noticia">
 			</aside>
 		</div>
+
+		<div class="noticia">
+			<article class="noticia-texto">
+				<h2>Por que Orochimaru se tornou um cara bom após ser revivido por Sasuke em Naruto Shippuden?</h2>
+				<p>Desde que foi apresentado durante o Exame Chunin em Naruto Clássico, Orochimaru sempre foi um vilão
+					marcante e extremamente sádico, sendo considerado um dos melhores antagonistas da obra.
+				</p>
+				<p>Em Naruto Shippuden sua “ruindade” continuou a mesma, fazendo experimentos em humanos, tentando
+					alcançar a vida eterna e como se não fosse o bastante, queria roubar o corpo de Sasuke e também seu
+					Sharingan... <a href="#leiamais">LEIA MAIS</a></p>
+				<span>Há 2 horas atrás - Curiosidades</span>
+			</article>
+			<aside class="noticia-imagem">
+				<img src="img/introducao.jpg" alt="Noticia">
+			</aside>
+		</div>
+
+		<div class="noticia">
+			<article class="noticia-texto">
+				<h2>Por que Orochimaru se tornou um cara bom após ser revivido por Sasuke em Naruto Shippuden?</h2>
+				<p>Desde que foi apresentado durante o Exame Chunin em Naruto Clássico, Orochimaru sempre foi um vilão
+					marcante e extremamente sádico, sendo considerado um dos melhores antagonistas da obra.
+				</p>
+				<p>Em Naruto Shippuden sua “ruindade” continuou a mesma, fazendo experimentos em humanos, tentando
+					alcançar a vida eterna e como se não fosse o bastante, queria roubar o corpo de Sasuke e também seu
+					Sharingan... <a href="#leiamais">LEIA MAIS</a></p>
+				<span>Há 2 horas atrás - Curiosidades</span>
+			</article>
+			<aside class="noticia-imagem">
+				<img src="img/introducao.jpg" alt="Noticia">
+			</aside>
+		</div>
+
+		<div class="noticia">
+			<article class="noticia-texto">
+				<h2>Por que Orochimaru se tornou um cara bom após ser revivido por Sasuke em Naruto Shippuden?</h2>
+				<p>Desde que foi apresentado durante o Exame Chunin em Naruto Clássico, Orochimaru sempre foi um vilão
+					marcante e extremamente sádico, sendo considerado um dos melhores antagonistas da obra.
+				</p>
+				<p>Em Naruto Shippuden sua “ruindade” continuou a mesma, fazendo experimentos em humanos, tentando
+					alcançar a vida eterna e como se não fosse o bastante, queria roubar o corpo de Sasuke e também seu
+					Sharingan... <a href="#leiamais">LEIA MAIS</a></p>
+				<span>Há 2 horas atrás - Curiosidades</span>
+			</article>
+			<aside class="noticia-imagem">
+				<img src="img/introducao.jpg" alt="Noticia">
+			</aside>
+		</div>
+
+		<div class="noticia">
+			<article class="noticia-texto">
+				<h2>Por que Orochimaru se tornou um cara bom após ser revivido por Sasuke em Naruto Shippuden?</h2>
+				<p>Desde que foi apresentado durante o Exame Chunin em Naruto Clássico, Orochimaru sempre foi um vilão
+					marcante e extremamente sádico, sendo considerado um dos melhores antagonistas da obra.
+				</p>
+				<p>Em Naruto Shippuden sua “ruindade” continuou a mesma, fazendo experimentos em humanos, tentando
+					alcançar a vida eterna e como se não fosse o bastante, queria roubar o corpo de Sasuke e também seu
+					Sharingan... <a href="#leiamais">LEIA MAIS</a></p>
+				<span>Há 2 horas atrás - Curiosidades</span>
+			</article>
+			<aside class="noticia-imagem">
+				<img src="img/introducao.jpg" alt="Noticia">
+			</aside>
+		</div>
+		</div>
 	</section>
 
 	<section class="destaques-bg">
 		<div class="destaques">
 			<h1 class="titulo">Mais Destaques</h1>
-			<div class="cards">
+			<div class="cards" data-slide="destaques">
+				
 				<ul class="card-list">
 					<li>
 						<img src="img/destaque1.jpg" alt="Info Ninja">
@@ -92,13 +161,56 @@
 						<p>Info Ninja: Os kages mais fortes no mundo ninja</p>
 					</li>
 				</ul>
+
+				<ul class="card-list">
+					<li>
+						<img src="img/destaque2.jpg" alt="Boruto">
+						<p>Boruto: Jiraya é ou não é clone de Kashin Koji</p>
+					</li>
+
+					<li>
+						<img src="img/destaque1.jpg" alt="Info Ninja">
+						<p>Info Ninja: Todos os membros, a história e poderes de cada</p>
+					</li>
+
+					<li>
+						<img src="img/destaque4.jpg" alt="Info Ninja">
+						<p>Info Ninja: Os kages mais fortes no mundo ninja</p>
+					</li>
+					
+					<li>
+						<img src="img/destaque3.jpg" alt="Naruto Shippudden">
+						<p>Naruto Shippudden: Qual era realmente o motivo de Itachi Uchiha</p>
+					</li>
+
+				</ul>
+
+				<ul class="card-list">
+					<li>
+						<img src="img/destaque3.jpg" alt="Naruto Shippudden">
+						<p>Naruto Shippudden: Qual era realmente o motivo de Itachi Uchiha</p>
+					</li>
+					<li>
+						<img src="img/destaque1.jpg" alt="Info Ninja">
+						<p>Info Ninja: Todos os membros, a história e poderes de cada</p>
+					</li>
+					<li>
+						<img src="img/destaque4.jpg" alt="Info Ninja">
+						<p>Info Ninja: Os kages mais fortes no mundo ninja</p>
+					</li>
+					<li>
+						<img src="img/destaque2.jpg" alt="Boruto">
+						<p>Boruto: Jiraya é ou não é clone de Kashin Koji</p>
+					</li>
+				</ul>
+
 			</div>
 		</div>
 	</section>
 
-	<section class="bataha-review">
+	<section class="bataha-review" id="review">
 		<h1 class="titulo">Batalha Review</h1>
-		<div class="cards">
+		<div class="cards" data-slide="batalhas">
 			<ul class="card-list">
 				<li>
 					<img src="img/batalha1.jpg" alt="Batalha Review">
@@ -115,6 +227,44 @@
 				<li>
 					<img src="img/batalha4.jpg" alt="Batalha Review">
 					<p>Naruto VS Sasuke</p>
+				</li>
+			</ul>
+
+			<ul class="card-list">
+				<li>
+					<img src="img/batalha3.jpg" alt="Batalha Review">
+					<p>Naruto VS Pain</p>
+				</li>
+				<li>
+					<img src="img/batalha4.jpg" alt="Batalha Review">
+					<p>Naruto VS Sasuke</p>
+				</li>
+				<li>
+					<img src="img/batalha1.jpg" alt="Batalha Review">
+					<p>Rock Lee VS Gaara</p>
+				</li>
+				<li>
+					<img src="img/batalha2.jpg" alt="Batalha Review">
+					<p>Deidara VS Sasuke</p>
+				</li>
+			</ul>
+
+			<ul class="card-list">
+				<li>
+					<img src="img/batalha3.jpg" alt="Batalha Review">
+					<p>Naruto VS Pain</p>
+				</li>
+				<li>
+					<img src="img/batalha2.jpg" alt="Batalha Review">
+					<p>Deidara VS Sasuke</p>
+				</li>
+				<li>
+					<img src="img/batalha4.jpg" alt="Batalha Review">
+					<p>Naruto VS Sasuke</p>
+				</li>
+				<li>
+					<img src="img/batalha1.jpg" alt="Batalha Review">
+					<p>Rock Lee VS Gaara</p>
 				</li>
 			</ul>
 		</div>
@@ -161,7 +311,7 @@
 		</div>
 	</section>
 
-	<section class="equipe-bg">
+	<section class="equipe-bg" id="equipe">
 		<h1 class="titulo">Equipe</h1>
 		<div class="equipe">
 			<div class="equipe-block">
@@ -217,9 +367,9 @@
 				<p>contato@konohaflex.com</p>
 				<p>São Paulo - SP</p>
 				<div class="redes-sociais">
-					<p><a href="#facebook"><i class="fab fa-facebook fa-lg"></i></a></p>
-					<p><a href="#linkedin"><i class="fab fa-instagram fa-lg"></i></a></p>
-					<p><a href="#intagram"><i class="fab fa-linkedin fa-lg"></i></a></p>
+					<p><a href="https://www.facebook.com/daniel.damasiogabriel.7" target="_blank"><i class="fab fa-facebook fa-lg"></i></a></p>
+					<p><a href="https://www.instagram.com/damakron/"><i class="fab fa-instagram fa-lg" target="_blank"></i></a></p>
+					<p><a href="https://www.linkedin.com/in/daniel-damasio-6370011a6/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a></p>
 				</div>
 			</li>
 			<li>
@@ -237,6 +387,10 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/script.js"></script>
+	<script src="./js/scroll.js"></script>
+	<script src="./js/simple-slide.js"></script>
+	<script src="./js/simple-anime.js"></script>
 </body>
 
 </html>
