@@ -334,6 +334,9 @@ img {
 .card-colaborador li {
 	padding: 20px 10px;
 }
+.borda {
+	border-top: 3px solid #d15915;
+}
 .card-colaborador li p {
 	text-align: center;
 	padding: 10px;
@@ -360,6 +363,19 @@ img {
 .redes-sociais {
 	display: flex;
 	margin: 0;
+}
+.redes-sociais {
+	margin-top: 16px;
+	font-size: 1.5em;
+}
+.redes-sociais a {
+	color: #e0e0e0;
+}
+.laranja {
+	color: #d15915;
+}
+.redes-sociais p+p {
+	margin-left: 16px;
 }
 
 .footer-titulo {
